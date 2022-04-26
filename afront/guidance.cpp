@@ -58,7 +58,7 @@ real_type GuidanceField::LocalStepLength(real_type curvature) {
 	return StepRequired(0, MaxCurvatureToIdeal(curvature));
 }
 
-
+// where is it?
 real_type GuidanceField::MaxStepLength(const Point3 &p)
 {
     real_type len = max_step;
